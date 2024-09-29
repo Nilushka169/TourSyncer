@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ylwWallSecondary"
+        android:layout_width="410dp"
+        android:layout_height="246dp"
+        android:background="@drawable/left_top_croped"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circular" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="308dp"
+        android:layout_height="284dp"
+        android:layout_marginStart="-100px"
+        android:layout_marginTop="-170px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tour_syncer_name" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="176dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="-32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rounded_rectangle1" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="183dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginStart="-32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rounded_rectangle2" />
+
+    <ImageView
+        android:id="@+id/weather"
+        android:layout_width="302dp"
+        android:layout_height="275dp"
+        android:layout_marginStart="-45dp"
+        android:layout_marginTop="45dp"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="@+id/ylwWallSecondary"
+        app:layout_constraintEnd_toStartOf="@+id/compass"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/weather_icon" />
+
+    <ImageView
+        android:id="@+id/compass"
+        android:layout_width="141dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ylwWallSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/compass" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="172dp"
+        android:rotation="-90"
+        android:text="WEATHER"
+        android:textColor="#D3A211"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="116dp"
+        android:rotation="90"
+        android:text="COMPASS"
+        android:textColor="#D3A211"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView19"
+        android:layout_width="403dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="251dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundRectangle"
+        app:srcCompat="@drawable/wall_img" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="480dp"
+        android:text="Just Plan Your"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ylwWallSecondary" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="524dp"
+        android:text="TOURS !"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/try_it"
+        android:layout_width="105dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="#DFA801"
+        android:text="Try It !"
+        android:textColorHint="#8C2020"
+        android:textStyle="bold"
+        app:cornerRadius="30px"
+        app:iconTint="#814848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHome"
+        android:layout_width="393dp"
+        android:layout_height="142dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

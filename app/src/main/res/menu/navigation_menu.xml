@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navLocator"
+        android:title="Locator"
+        android:icon="@drawable/locator" />
+
+    <item
+        android:id="@+id/navTripPlanner"
+        android:title="Trip Planner"
+        android:icon="@drawable/trip_planner" />
+
+    <item
+        android:id="@+id/navHome"
+        android:title="Home"
+        android:icon="@drawable/home" />
+
+    <item
+        android:id="@+id/navJournal"
+        android:title="Journal"
+        android:icon="@drawable/journal"/>
+
+    <item
+        android:id="@+id/navGallery"
+        android:title="Gallery"
+        android:icon="@drawable/gallery"/>
+
+
+</menu>

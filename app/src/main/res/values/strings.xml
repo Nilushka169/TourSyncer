@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tour Syncer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">971818507912486</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">2300ea3e35c911180559edefe9b60158</string>
+
+
+</resources>
